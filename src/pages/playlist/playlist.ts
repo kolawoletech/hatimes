@@ -1,7 +1,7 @@
 import { YtProvider } from './../../providers/yt/yt';
 import { Observable } from 'rxjs/Observable';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, Platform } from 'ionic-angular';
+import { IonicPage, NavParams, Platform } from 'ionic-angular';
 import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player';
 import { SocialSharing } from '@ionic-native/social-sharing';
 

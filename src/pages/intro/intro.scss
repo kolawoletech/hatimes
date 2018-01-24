@@ -1,16 +1,29 @@
 .ios, .md {
-
-    page-intro {
-
-      ion-slide {
-        background-color: #32db64;
-      }
-
-      ion-slide img {
-        height: 70vh !important;
-        width: auto !important;
-      }
-
+  page-intro {
+    ion-slide {
+      background-color: #c1e9cd;
     }
 
+    ion-slide img {
+      height: 70vh !important;
+      width: auto !important;
+    }
+    .videowrapper {
+      float: none;
+      clear: both;
+      width: 100%;
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 25px;
+      height: 0;
+      background-color: #000000;
+    }
+    .videowrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
   }
+}
